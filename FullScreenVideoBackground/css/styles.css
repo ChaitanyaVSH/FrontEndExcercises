@@ -87,3 +87,30 @@ h1 {
   z-index: 1;
   color: #fff;
 }
+
+/* About section */
+#about {
+  text-align: center;
+  padding: 40px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#about h2 {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.fab {
+  margin: 0 5px;
+  transition: transform 250ms ease-in-out;
+}
+
+.fab:hover {
+  transform: scale(1.5);
+}

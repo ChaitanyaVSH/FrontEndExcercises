@@ -8,5 +8,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
 let menuBtn = document.getElementById("menuBtn");
 menuBtn.addEventListener("click", () => {
-    alert("Promoted")
+
+    document.querySelector(".menu").classList.toggle("show")
 })

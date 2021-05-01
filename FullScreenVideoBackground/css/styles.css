@@ -143,7 +143,7 @@ h1 {
 
 /* Experimental CSS */
 
-.pricing {
+#pricing {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -222,7 +222,7 @@ h1 {
   padding: 40px 20px 20px 20px;
 
   /* Transparent effect */
-  opacity: 0.9;
+  opacity: 0.5;
 
   /* Moving it out of the screen when the menu is not clicked */
   transform: translateX(100%);

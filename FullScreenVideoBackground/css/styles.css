@@ -193,6 +193,12 @@ h1 {
   right: 0;
   margin: 10px;
   transition: all 250ms ease-in-out;
+
+  /* The below styles will cause the element to go outside the canvas as we are using the translateX property */
+  /* transform: translateX(50px);
+  width: 350px;
+  height: 300px;
+  border: 1px solid red; */
 }
 
 #menuBtn:hover {

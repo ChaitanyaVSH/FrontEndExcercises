@@ -9,5 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
 let menuBtn = document.getElementById("menuBtn");
 menuBtn.addEventListener("click", () => {
 
-    document.querySelector(".menu").classList.toggle("show")
+    document.querySelector(".bars").classList.toggle("hide");
+    document.querySelector(".close").classList.toggle("hide");
+    document.querySelector(".menu").classList.toggle("show");
 })

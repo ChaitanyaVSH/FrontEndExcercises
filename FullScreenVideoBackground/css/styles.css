@@ -235,6 +235,15 @@ h1 {
   transform: translateX(0px);
 }
 
+.hide {
+  display: none;
+}
+
+.bars,
+.close {
+  transition: all 250ms ease-in-out;
+}
+
 .menuItem {
   list-style: none;
   margin: 10px;

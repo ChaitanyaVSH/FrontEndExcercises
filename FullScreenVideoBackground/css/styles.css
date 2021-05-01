@@ -15,9 +15,17 @@ html {
   padding: 0;
 }
 
+/*
+* On-Canvas elements on the right side
+* Explanation: https://stackoverflow.com/a/36606605/11399514
+* https://codepen.io/anon/pen/vGRxdJ
+* https://codepen.io/chaitanyavsh/pen/RwKzVJa
+* Fix: overflow-x: hidden
+*/
 body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 a {
@@ -178,7 +186,7 @@ h1 {
 
 /* Experimental CSS for menuBtn */
 #menuBtn {
-  position: fixed;
+  position: absolute;
   color: white;
   z-index: 10000;
   top: 0;
@@ -194,7 +202,7 @@ h1 {
 
 .menu {
   /* Positioning as fixed to control it with the top and left properties */
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   z-index: 1000;

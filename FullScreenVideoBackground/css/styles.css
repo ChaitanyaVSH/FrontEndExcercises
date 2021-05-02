@@ -185,6 +185,16 @@ h1 {
 }
 
 /* Experimental CSS for menuBtn */
+ul.mainMenu li {
+  border: 1px solid lightsalmon;
+}
+
+ul.mainMenu li:hover {
+  transform: scaleY(1.1);
+  transition: all 200ms ease-in-out;
+  border: 1px solid white;
+}
+
 #menuBtn {
   position: absolute;
   color: white;

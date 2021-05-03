@@ -1,3 +1,26 @@
-body {
-  background: red;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+/* Root styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
 }
+
+body {
+  overflow-x: hidden;
+}
+
+/* Utility styles */
+.fab {
+  margin: 0 5px;
+  transition: transform 250ms ease-in-out;
+  color: black;
+}
+
+.fab:hover {
+  transform: scale(1.5);
+}
+
+/* Actual styles */

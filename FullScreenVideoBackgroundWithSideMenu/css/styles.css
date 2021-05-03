@@ -13,6 +13,10 @@ body {
 }
 
 /* Utility styles */
+.fas {
+  padding: 15px;
+}
+
 .fab {
   margin: 0 5px;
   transition: transform 250ms ease-in-out;
@@ -49,6 +53,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.logo {
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .toggle {

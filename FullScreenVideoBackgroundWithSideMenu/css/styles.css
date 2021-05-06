@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 
-.btn {
+/* .btn {
   display: inline-block;
   background: lightgray;
   color: black;
@@ -30,7 +30,7 @@ a {
   transform: scaleX(1.2);
   /* https://stackoverflow.com/a/40712952/11399514 */
   transform-origin: left;
-}
+} */
 
 .fas {
   padding: 15px;
@@ -131,4 +131,20 @@ a {
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
+}
+
+.text a {
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  color: #111;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 250ms ease-in-out;
+}
+
+.text a:hover{
+  letter-spacing: 6px;
 }

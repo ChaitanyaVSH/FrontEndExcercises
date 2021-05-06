@@ -16,22 +16,6 @@ a {
   text-decoration: none;
 }
 
-/* .btn {
-  display: inline-block;
-  background: lightgray;
-  color: black;
-  font-size: 18px;
-  margin-top: 15px;
-  padding: 8px 20px;
-  transition: transform 250ms;
-}
-
-.btn:hover {
-  transform: scaleX(1.2);
-  /* https://stackoverflow.com/a/40712952/11399514 */
-  transform-origin: left;
-} */
-
 .fas {
   padding: 15px;
 }
@@ -39,11 +23,11 @@ a {
 .fab {
   margin: 0 5px;
   transition: transform 250ms ease-in-out;
-  color: black;
+  color: white;
 }
 
 .fab:hover {
-  transform: scale(1.5);
+  transform: translateY(-15px);
 }
 
 /* Actual styles */
@@ -145,6 +129,12 @@ a {
   transition: all 250ms ease-in-out;
 }
 
-.text a:hover{
+.text a:hover {
   letter-spacing: 6px;
+}
+
+/* Social media icons */
+.social {
+  position: absolute;
+  bottom: 30px;
 }

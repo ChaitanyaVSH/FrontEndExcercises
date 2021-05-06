@@ -12,6 +12,26 @@ body {
 }
 
 /* Utility styles */
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  background: lightgray;
+  color: black;
+  font-size: 18px;
+  margin-top: 15px;
+  padding: 8px 20px;
+  transition: transform 250ms;
+}
+
+.btn:hover {
+  transform: scaleX(1.2);
+  /* https://stackoverflow.com/a/40712952/11399514 */
+  transform-origin: left;
+}
+
 .fas {
   padding: 15px;
 }
@@ -32,7 +52,7 @@ body {
   position: absolute;
   right: 0;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   padding: 100px;
   display: flex;
   justify-content: space-between;
@@ -92,5 +112,23 @@ body {
   z-index: 10;
 }
 
-.menu {
+.text h2 {
+  font-size: 5em;
+  font-weight: 800;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.text h3 {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.text p {
+  font-size: 1.1em;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
 }

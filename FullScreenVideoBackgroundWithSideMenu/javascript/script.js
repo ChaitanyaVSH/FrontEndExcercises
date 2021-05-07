@@ -10,3 +10,9 @@ menuBtn.addEventListener("click", () => {
     menuCloseIcon.classList.toggle("hide");
     section.classList.toggle("active");
 });
+
+
+// https://www.linkedin.com/posts/akshaymarch7_how-to-check-if-a-browser-tab-is-active-or-activity-6759374707734142976-UjWR
+setInterval(() => {
+    console.log(document.visibilityState);
+},5000)

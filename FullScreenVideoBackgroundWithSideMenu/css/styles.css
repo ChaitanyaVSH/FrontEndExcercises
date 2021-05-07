@@ -138,3 +138,26 @@ a {
   position: absolute;
   bottom: 30px;
 }
+
+/* Media queries for smaller screens */
+@media (max-width: 640px) {
+  .showcase,
+  .showcase header {
+    padding: 40px;
+  }
+
+  .text h2 {
+    font-size: 3em;
+  }
+
+  .text h3 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 400px) {
+  .showcase,
+  .showcase header {
+    padding: 20px;
+  }
+}

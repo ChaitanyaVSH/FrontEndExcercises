@@ -16,7 +16,8 @@ a {
   text-decoration: none;
 }
 
-.fas {
+.fas,
+.far {
   padding: 15px;
 }
 
@@ -44,6 +45,7 @@ a {
   background: #111;
   color: #fff;
   z-index: 2;
+  transition: all 250ms;
 }
 
 .showcase header {
@@ -145,7 +147,6 @@ a {
   .showcase header {
     padding: 40px;
   }
-
   .text h2 {
     font-size: 3em;
   }
@@ -160,4 +161,14 @@ a {
   .showcase header {
     padding: 20px;
   }
+}
+
+/* Effects styles */
+section.active {
+  right: 300px;
+  transition: all 250ms;
+}
+
+i.hide {
+  display: none;
 }

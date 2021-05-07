@@ -28,6 +28,11 @@ body {
   overflow-x: hidden;
 }
 
+/* https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+body::-webkit-scrollbar {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: var(--primary-color);

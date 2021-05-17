@@ -1,0 +1,31 @@
+:is(h3, p) {
+  margin: 10px;
+}
+
+.container {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  padding: 15px 0;
+  padding-bottom: 0;
+  border: 1px solid black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  transition: height 250ms ease-in-out;
+  overflow-y: hidden;
+}
+
+.btn {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5px;
+  outline: none;
+  font-size: 20px;
+  margin-top: auto;
+}
+
+.container.expand {
+  height: 700px;
+  transition: height 250ms ease-in-out;
+}

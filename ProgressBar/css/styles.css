@@ -1,0 +1,17 @@
+.height {
+  height: 30px;
+}
+
+.container {
+  background: #ffe4b5;
+}
+
+.innerContainer {
+  width: 50%;
+  background: #ffa500;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bolder;
+  padding-left: 10px;
+}

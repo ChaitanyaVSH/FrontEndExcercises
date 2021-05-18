@@ -4,14 +4,20 @@
 
 .container {
   background: #ffe4b5;
+  max-width: 98vw;
+  margin: auto;
 }
 
 .innerContainer {
-  width: 50%;
+  width: 10%;
   background: #ffa500;
   display: flex;
   align-items: center;
   font-size: 22px;
   font-weight: bolder;
   padding-left: 10px;
+}
+
+#input {
+  width: 200px;
 }

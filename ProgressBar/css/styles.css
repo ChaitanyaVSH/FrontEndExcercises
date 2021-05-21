@@ -6,6 +6,7 @@
   background: #ffe4b5;
   max-width: 98vw;
   margin: auto;
+  font-family: Amazon Ember;
 }
 
 .innerContainer {
@@ -13,8 +14,7 @@
   background: #ffa500;
   display: flex;
   align-items: center;
-  font-size: 22px;
-  font-weight: bolder;
+  font-size: 18px;
   padding-left: 10px;
 }
 

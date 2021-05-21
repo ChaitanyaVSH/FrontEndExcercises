@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.inner {
+  width: 100%;
+  padding: 10px;
+  background: #00b6ff;
+  color: black;
+  clip-path: circle(10% at 0% 0%);
+  transition: all 250ms ease-in-out;
+}
+
+.inner:hover {
+  clip-path: circle(75%);
+}

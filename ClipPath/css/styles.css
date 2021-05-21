@@ -1,27 +1,52 @@
 body {
   background-color: black;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container {
-  background: white;
-  width: 500px;
-  margin: auto;
-  border-radius: 10px;
 }
 
 .inner {
-  width: 100%;
+  width: 450px;
   padding: 10px;
   background: #00b6ff;
   color: black;
-  clip-path: circle(10% at 0% 0%);
   transition: all 250ms ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
-.inner:hover {
+span {
+  float: right;
+  color: white;
+  font-weight: bold;
+  transition: color 0.5s;
+  position: relative;
+  margin-right: 35px;
+  margin-top: 20px;
+}
+
+.clip {
+  clip-path: circle(9% at 90% 20%);
+}
+
+.clip:hover {
   clip-path: circle(75%);
+  background-color: lightgreen;
+}
+
+.card1 {
+  position: absolute;
+}
+
+.card2 {
+  left: 6%;
+}
+
+.card3 {
+  left: 11.5%;
+}
+
+.card {
+  position: absolute;
+}
+
+.card:hover {
+  z-index: 10;
 }

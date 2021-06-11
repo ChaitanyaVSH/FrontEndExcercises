@@ -15,3 +15,22 @@
 body {
   font-family: "Acme";
 }
+
+/* Utility styles */
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Showcase styles */
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+header > div > img {
+  width: 60%;
+}

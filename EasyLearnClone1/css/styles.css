@@ -18,17 +18,24 @@ body {
 
 /* Utility styles */
 .container {
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 /* Showcase styles */
+.showcase {
+  height: 100vh;
+  position: relative;
+  background: url("../images/background.png") no-repeat center/cover;
+  background-attachment: fixed;
+}
+
 /* Header styles */
 header {
   display: flex;
   justify-content: space-between;
-  margin-top: 15px;
-  padding: 10px;
+  padding: 30px 30px;
+  padding-left: 50px;
 }
 
 header > div > img {

@@ -13,7 +13,7 @@
 
 /* Html and body styles */
 body {
-  font-family: "Acme";
+  font-family: "Poppins";
 }
 
 /* Utility styles */
@@ -44,6 +44,13 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: lighter;
+  font-family: "Acme";
 }
 
 /* Showcase styles */
@@ -85,9 +92,6 @@ header > div > img {
 }
 
 .topContent p {
-  font-size: 18px;
-  line-height: 1.5;
-  font-weight: lighter;
   margin-bottom: 20px;
 }
 
@@ -115,6 +119,7 @@ header > div > img {
   margin: auto;
   padding: 70px;
   text-align: right;
+  font-family: "Acme";
 }
 
 .aboutContent h1 {
@@ -123,8 +128,7 @@ header > div > img {
 }
 
 .aboutContent p {
-  font-size: 18px;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 }
 
 /* Features section */
@@ -133,7 +137,7 @@ header > div > img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: lightblue;
+  background: lightcyan;
   min-height: 300px;
   padding: 10px;
 }
@@ -154,6 +158,7 @@ header > div > img {
 
 .feature p {
   font-weight: lighter;
+  font-size: 15px;
 }
 
 .feature h2,

@@ -55,6 +55,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   padding: 100px;
+  background-attachment: fixed;
 }
 
 /* Header styles */
@@ -100,8 +101,7 @@ header > div > img {
 }
 
 .aboutImage {
-  flex-basis: 50%;
-  min-width: 400px;
+  flex-basis: 60%;
   margin: auto;
 }
 
@@ -111,23 +111,52 @@ header > div > img {
 }
 
 .aboutContent {
-  flex-basis: 50%;
-  min-width: 400px;
+  flex-basis: 40%;
   margin: auto;
-  height: 100vh;
   padding: 70px;
   text-align: right;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .aboutContent h1 {
   font-size: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .aboutContent p {
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 100px;
+}
+
+/* Features section */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.feature {
+  width: 300px;
+  text-align: center;
+}
+
+.feature img {
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.feature h2 {
+  font-size: 25px;
+}
+
+.feature p {
+  font-weight: lighter;
+}
+
+.feature h2,
+.feature p {
+  margin-bottom: 8px;
 }

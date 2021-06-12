@@ -94,12 +94,15 @@ header > div > img {
 .about {
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
 .aboutImage {
-  width: 50%;
+  flex-basis: 50%;
+  min-width: 400px;
+  margin: auto;
 }
 
 .aboutImage img {
@@ -108,7 +111,9 @@ header > div > img {
 }
 
 .aboutContent {
-  max-width: 50%;
+  flex-basis: 50%;
+  min-width: 400px;
+  margin: auto;
   height: 100vh;
   padding: 70px;
   text-align: right;

@@ -205,3 +205,32 @@ header > div > img {
   display: block;
   width: 100%;
 }
+
+/* Footer styles */
+.footerMain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  background: lightpink;
+  padding: 25px;
+}
+
+.footerUL {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Acme";
+  font-size: 18px;
+}
+
+.footerUL li {
+  list-style: none;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.footerUL li:hover {
+  color: white;
+  text-transform: uppercase;
+}

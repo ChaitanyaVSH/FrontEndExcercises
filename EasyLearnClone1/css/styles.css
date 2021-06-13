@@ -256,7 +256,7 @@ header > div > img {
   position: fixed;
   top: 0;
   left: 0;
-  width: 5%;
+  width: 50px;
 }
 
 .socialMenu ul {
@@ -271,4 +271,60 @@ header > div > img {
 .socialMenu ul li {
   list-style: none;
   margin-bottom: 5px;
+}
+
+/* Media queries for tablet screens */
+@media (max-width: 1050px) {
+  .showcase {
+    background: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topContent {
+    max-width: 700px;
+    margin: 0;
+  }
+
+  .topContent h1 {
+    font-size: 55px;
+  }
+
+  .topContent p {
+    font-size: 25px;
+  }
+
+  .socialMenu {
+    position: absolute;
+  }
+}
+
+@media (max-width: 750px) {
+  .about {
+    height: 100vh;
+    display: block;
+    border: 1px solid red;
+  }
+
+  .aboutImage img {
+    height: 50%;
+  }
+
+  .aboutContent {
+    flex-basis: 100%;
+    text-align: left;
+  }
+
+  .aboutContent h1 {
+    font-size: 45px;
+  }
+
+  .aboutContent p {
+    font-size: 20px;
+  }
+
+  .aboutContent h3,
+  .aboutContent .italic {
+    display: none;
+  }
 }

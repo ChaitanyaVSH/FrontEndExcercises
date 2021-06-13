@@ -117,7 +117,6 @@ header > div > img {
 .about {
   height: 100vh;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -296,35 +295,5 @@ header > div > img {
 
   .socialMenu {
     position: absolute;
-  }
-}
-
-@media (max-width: 750px) {
-  .about {
-    height: 100vh;
-    display: block;
-    border: 1px solid red;
-  }
-
-  .aboutImage img {
-    height: 50%;
-  }
-
-  .aboutContent {
-    flex-basis: 100%;
-    text-align: left;
-  }
-
-  .aboutContent h1 {
-    font-size: 45px;
-  }
-
-  .aboutContent p {
-    font-size: 20px;
-  }
-
-  .aboutContent h3,
-  .aboutContent .italic {
-    display: none;
   }
 }

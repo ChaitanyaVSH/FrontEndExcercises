@@ -56,6 +56,21 @@ p {
   font-family: "Acme";
 }
 
+.fas,
+.far {
+  padding: 15px;
+}
+
+.fab {
+  margin: 10px 0;
+  transition: transform 250ms ease-in-out;
+  color: black;
+}
+
+.fab:hover {
+  transform: translateX(15px);
+}
+
 /* Showcase styles */
 .showcase {
   height: 100vh;
@@ -228,9 +243,32 @@ header > div > img {
   width: fit-content;
   margin: auto;
   margin-bottom: 15px;
+  line-height: 1.8;
 }
 
 .footerUL li:hover {
   color: white;
   text-transform: uppercase;
+}
+
+/* Social menu */
+.socialMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 5%;
+}
+
+.socialMenu ul {
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socialMenu ul li {
+  list-style: none;
+  margin-bottom: 5px;
 }

@@ -33,6 +33,7 @@ body {
   border: 2px solid lightpink;
   padding: 15px 30px;
   font-size: 20px;
+  font-family: "Acme";
   display: inline-block;
   color: red;
   letter-spacing: 1px;
@@ -119,7 +120,7 @@ header > div > img {
 .aboutContent {
   flex-basis: 40%;
   margin: auto;
-  padding: 70px;
+  padding: 15px;
   text-align: right;
   font-family: "Acme";
 }
@@ -169,4 +170,38 @@ header > div > img {
 .feature h2,
 .feature p {
   margin-bottom: 8px;
+}
+
+/* Courses styles */
+.courses {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courseContent {
+  flex-basis: 45%;
+  max-width: 550px;
+  margin: auto;
+  padding: 25px;
+}
+
+.courseContent h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.courseContent p {
+  margin-bottom: 45px;
+}
+
+.courseImage {
+  flex-basis: 55%;
+}
+
+.courseImage img {
+  display: block;
+  width: 100%;
 }

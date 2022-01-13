@@ -1,12 +1,92 @@
+/* DO NOT EDIT SECTION BEGIN */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+/* DO NOT EDIT SECTION END */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+/* Utility styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 14%;
+}
+
+/* Custom CSS */
+.ticket > * {
+  margin-bottom: 18px;
+}
+
+.ticket {
+  background: linear-gradient(135deg, #7158fe, #9d4de6);
+  color: #f8f9fa;
+
+  max-width: 600px;
+
+  text-align: center;
+
+  padding: 25px 50px;
+
+  border-radius: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+
+  position: relative;
+}
+
+.ticket h2 {
+  font-weight: 400;
+}
+
+.couponRow {
+  display: flex;
+  justify-content: center;
+}
+
+.couponRow > * {
+  padding: 4px 8px;
+}
+
+.couponCode {
+  border: 1px dotted #fff;
+}
+
+.copyCoupon {
+  background: #fff;
+  color: #9d4de6;
+  cursor: pointer;
+}
+
+.ticket::after,
+.ticket::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.ticket::after {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.ticket::before {
+  right: 0;
+  transform: translate(50%, -50%);
 }
